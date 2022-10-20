@@ -1,5 +1,6 @@
-import React from 'react'
-
+import React, { useState } from 'react'
+import { AiOutlineHeart, AiFillHeart } from "react-icons/ai";
+import { HiOutlineTrash } from "react-icons/hi";
 type Props ={
   title: string,
   img: string,
@@ -7,16 +8,21 @@ type Props ={
   size: number
 }
 const CartProduct = ({title,img,price,size}:Props) => {
+  const {save,setSave} = useState<boolean>(false)
+  const handleSave =()=>{
+    setSave(prevSave => !prevSave)
+  }
   return (
     <div className='flex gap-12 w-11/12'>
       
       <img src = {img} alt='sneaker image' height={130} width={105}/>
-      <div>
+      <div className='w-full'>
         <h3>{title}</h3>
         <h3>Rs.{price} <span className='text-green-500'>In Stock</span></h3>
         <h3>Size: {size} EU</h3>
-        <div>
-
+        <div className='flex gap-4 justify-end mt-4'>
+          <div className='flex gap-1'><div onClick={handleSave}>{save ? <AiFillHeart size='20'/> : <AiOutlineHeart size='20'/> }</div> Save</div>
+          <div className='flex gap-1'> <HiOutlineTrash size='20'/> Delete</div>
         </div>
       </div>
     </div>
