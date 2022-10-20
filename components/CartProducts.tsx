@@ -30,7 +30,7 @@ const CartProducts = () => {
    })
     
   return (
-    <div className='border-solid border border-black flex flex-col gap-14 justify-center items-center m-16 py-4'>
+    <div className='border-solid border border-gray-600 flex flex-col gap-14 justify-center items-center mx-3 md:mx-16 py-4'>
         {products}
     </div>
   )
