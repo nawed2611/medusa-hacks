@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Menu from "../src/components/Home/Menu";
-import Footer from "../components/Footer";
-import Features from "../components/Features";
+import Footer from "../src/components/Home/Footer";
+import Features from "../src/components/Home/Features";
 import Spline from "@splinetool/react-spline";
 
 const Home: NextPage = () => {

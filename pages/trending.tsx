@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
-import Menu from "../components/Menu";
-import FeatureProductCard from "../components/Product/FeatureProductCard";
+import Menu from "../src/components/Home/Menu";
+import FeatureProductCard from "../src/components/Product/FeatureProductCard";
 const Trending = () => {
   return (
     <div>
