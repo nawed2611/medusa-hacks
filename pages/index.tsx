@@ -1,15 +1,19 @@
 import type { NextPage } from "next";
-import Menu from "../components/Menu";
+import Menu from "../src/components/Home/Menu";
 import Footer from "../components/Footer";
 import Features from "../components/Features";
 import Spline from "@splinetool/react-spline";
 
 const Home: NextPage = () => {
   return (
-    <>
-      <span className="absolute inset-0 my-4">
+    <section className="flex">
+      <div className="w-screen h-screen bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))] from-white via-gray-200 to-gray-200 flex justify-center items-center min-h-screen">
+        <h1 className="lg:md:text-9xl text-3xl tracking-widest">Flareon</h1>
+      </div>
+      <div className="absolute right-12">
+
         <Menu />
-      </span>
+      </div>
       <section className="">
         <section className="min-h-screen relative bg-gray-500">
           <div className="absolute inset-x-0 bottom-0">
