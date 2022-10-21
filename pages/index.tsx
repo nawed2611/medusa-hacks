@@ -6,7 +6,7 @@ import Spline from "@splinetool/react-spline";
 
 const Home: NextPage = () => {
   return (
-    <section className="flex">
+    <section className="flex overflow-x-hidden">
       <div className="absolute z-10 right-12">
         <Menu />
       </div>
@@ -24,7 +24,7 @@ const Home: NextPage = () => {
           </div>
           <div className="px-4 pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
             <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
-              <h2 className="mb-6 mt-24 font-sans text-3xl font-bold tracking-tight text-white sm:text-7xl sm:leading-none">
+              <h2 className="mb-6 mt-12 font-sans text-3xl font-bold tracking-tight text-white sm:text-7xl sm:leading-none">
                 Think Sneakers.
                 <br className="block" />
                 Think{" "}

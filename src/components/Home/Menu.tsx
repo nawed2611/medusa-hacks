@@ -9,7 +9,7 @@ const Menu = () => {
   ];
   const [navOpen, setNavOpen] = useState(false);
   return (
-    <section className="mt-24">
+    <section className="mt-16 text-white">
       <div>
         <button
           className="w-full text-xl font-bold tracking-widest py-2 px-4"
