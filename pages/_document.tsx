@@ -10,11 +10,12 @@ export default function Document() {
         <link rel='preload' href='/fonts/Poppins-Bold.ttf' as='font' crossOrigin='anonymous'></link>
         <link rel='preload' href='/fonts/Poppins-Regular.ttf' as='font' crossOrigin='anonymous'></link>
         <link rel='preload' href='/fonts/Poppins-SemiBold.ttf' as='font' crossOrigin='anonymous'></link>
-        </Head>
+      </Head>
       <body>
         <Main />
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }
+
