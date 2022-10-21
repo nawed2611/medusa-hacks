@@ -7,8 +7,7 @@ import Spline from "@splinetool/react-spline";
 const Home: NextPage = () => {
   return (
     <section className="flex">
-      <div className="absolute right-12">
-
+      <div className="absolute z-10 right-12">
         <Menu />
       </div>
       <section className="">
