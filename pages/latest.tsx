@@ -1,12 +1,12 @@
-import LatestProd from "../components/Product/LatestProd";
-import Menu from "../components/Menu";
+import LatestProd from "../src/components/Product/LatestProd";
+import Menu from "../src/components/Home/Menu";
 const Latest = () => {
   return (
     <div>
       <section className="h-screen ">
-      <span className="absolute inset-0 my-4">
-        <Menu />
-      </span>
+        <span className="absolute inset-0 my-4">
+          <Menu />
+        </span>
         <div className="flex lg:md:flex-row flex-col">
           <div className="py-3 bg-[#a6e300] lg:md:w-1/2">
             <LatestProd
