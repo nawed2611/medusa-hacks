@@ -5,11 +5,11 @@
 
 ### Participants
   
-[**@nawed2611** : Nawed Ali](https://github.com/nawed2611)
-[**@bhavya-giri** :  Bhavya Giri](https://github.com/bhavya-giri)
-[**@ishaanbedi** :  Ishaan Bedi](https://github.com/ishaanbedi)
-[**@ishar19** : Ishar](https://github.com/ishar19)
-[**@juhiechandra** : Juhie](https://github.com/juhiechandra)
+1. [**@nawed2611** : Nawed Ali](https://github.com/nawed2611)
+2. [**@bhavya-giri** :  Bhavya Giri](https://github.com/bhavya-giri)
+3. [**@ishaanbedi** :  Ishaan Bedi](https://github.com/ishaanbedi)
+4. [**@ishar19** : Ishar](https://github.com/ishar19)
+5. [**@juhiechandra** : Juhie](https://github.com/juhiechandra)
 
 
 ### Description
