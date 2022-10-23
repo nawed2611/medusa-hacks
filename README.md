@@ -8,6 +8,22 @@ Medusa is an open source composable commerce engine built with Node.js. Medusa e
 
 This project uses Medusa-Js and utilise it to create a beautiful experience for people buying sneakers. With modern and sleek design, we bring you our very personalised store for sneaker lovers "Flareon".
 
+### Setup
+
+npm
+  ```sh
+  npm install npm@latest -g
+  ```
+
+Clone the repo
+   ```sh
+   git clone https://github.com/your_username_/medusa-hacks.git
+   ```
+Install NPM packages
+   ```sh
+   npm install
+   ```
+
 ### Ideation
 
 <img width="3065" alt="idea-medusa" src="https://user-images.githubusercontent.com/75068056/197403931-08769705-b807-4d3d-8525-5d0b7898d45e.png">
